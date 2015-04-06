@@ -3,6 +3,7 @@ set prompt = "[%h] %B%T%b %m:%c03 %# "
 
 # Alias Definitions
 #--------------------
+alias ls ls --color
 alias ll ls -l
 alias la ls -la
 alias rm rm -i 
