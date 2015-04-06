@@ -1,0 +1,31 @@
+# Prompt Config
+set prompt = "[%h] %B%T%b %m:%c03 %# " 
+
+# Alias Definitions
+#--------------------
+alias ll ls -l
+alias la ls -la
+alias rm rm -i 
+alias v vim
+alias l ls -1
+alias pd perldoc
+alias svi sudo vi
+alias kernlog tail /var/log/kern.log
+alias insmod sudo insmod
+alias rmmod sudo rmmod
+#alias ls ls --color=always
+alias grep grep -re
+alias ifconfig sudo ifconfig
+#<username> Refresh shell
+alias resh exec su - 
+alias gstat git status
+
+# Environment settings
+#--------------------
+set path = ($path /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games:$HOME/bin)
+setenv TZ America/New_York
+
+if ! $?PERL_MB_OPT setenv PERL_MB_OPT '';
+setenv PERL_MB_OPT "--install_base "\""/home/pi/perl5"\""";
+if ! $?PERL_MM_OPT setenv PERL_MM_OPT '';
+setenv PERL_MM_OPT "INSTALL_BASE=/home/pi/perl5";
