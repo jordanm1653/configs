@@ -14,7 +14,7 @@ alias svi sudo vi
 alias kernlog tail /var/log/kern.log
 alias insmod sudo insmod
 alias rmmod sudo rmmod
-#alias ls ls --color=always
+alias grep grep --color=always
 alias grep grep -re
 alias ifconfig sudo ifconfig
 #<username> Refresh shell
