@@ -35,6 +35,8 @@ noremap <Right> <NOP>
 "Set Relative line numbers
 set relativenumber
 
+" Git commit
+autocmd Filetype gitcommit setlocal spell textwidth=72
 "NERDtree!!
 "autocmd StdinReadPre * let s:std_in=1
 "autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
