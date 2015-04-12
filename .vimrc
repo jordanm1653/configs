@@ -2,7 +2,7 @@ set ruler laststatus=2 number title hlsearch
 syntax on
 
 " size of a hard tabstop
-set tabstop=8
+set tabstop=4
 
 "Color Scheme Settings
 colorscheme molokai 
