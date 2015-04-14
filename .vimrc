@@ -7,8 +7,8 @@ set tabstop=4
 "Color Scheme Settings
 colorscheme molokai 
 set t_Co=256
-"highlight ColorColumn ctermbg=235 guibg=#2c2d27
-"let &colorcolumn="80,".join(range(120,999),",")
+highlight ColorColumn ctermbg=235 guibg=#2c2d27
+let &colorcolumn="80,".join(range(120,999),",")
 
 "Print Black and white 
 set printoptions+=paper:letter
