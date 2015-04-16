@@ -15,7 +15,7 @@ alias kernlog tail /var/log/kern.log
 alias insmod sudo insmod
 alias rmmod sudo rmmod
 alias grep grep --color=always
-alias grep grep -re
+alias grep grep -e
 alias ifconfig sudo ifconfig
 #<username> Refresh shell
 alias resh exec su - 
