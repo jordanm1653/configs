@@ -1,10 +1,4 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
-let g:netrw_dirhist_1='/home/pi/.cache'
-let g:netrw_dirhist_2='/home/pi/ece/hw1_3'
-let g:netrw_dirhist_3='/home/pi/hw1'
-let g:netrw_dirhist_4='/usr/src/linux-3.18.9/drivers/misc'
-let g:netrw_dirhist_5='/usr/src/linux-3.18.9'
-let g:netrw_dirhist_6='/usr/src/linux-3.18.9/drivers'
-let g:netrw_dirhist_7='/usr/src/linux-3.18.9/drivers/misc'
-let g:netrw_dirhist_8='/home/pi/configs'
+let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_1='/etc/cron.daily'
+let g:netrw_dirhist_2='/home/pi/configs'
