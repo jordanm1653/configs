@@ -26,14 +26,23 @@ map <F9> :make <CR>
 map <F7> :tabp <CR>
 map <F8> :tabn <CR>
 
+"Quicker way to escape from insert mode
+imap jk <Esc>
+
 "Break the habbit of arrow keys
 noremap <Up> <NOP>
 noremap <Down> <NOP>
 noremap <Left> <NOP>
 noremap <Right> <NOP>
 
+"SPLITS
+"~~~~~~~~~~~~~~~~~~~~
+set splitbelow
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+
 "Set Relative line numbers
-set relativenumber
+"set relativenumber
 
 " Git commit
 autocmd Filetype gitcommit setlocal spell textwidth=72
